@@ -1,0 +1,88 @@
+{
+  "personal": {
+    "full_name": "Sandesh Ghimire",
+    "current_location": "Minneapolis, MN — this is where Sandesh currently lives",
+    "originally_from": "Nepal — Sandesh grew up in Nepal and moved to the United States for higher education",
+    "background": "First-generation international student. Strong belief in education accessibility and long-term discipline."
+  },
+
+  "professional_summary": "Software Engineer with 3+ years of experience building and supporting distributed, event-driven systems in high-availability aviation environments. Experienced in microservices architecture, SOAP/REST integrations, real-time operational workflows, and production system stabilization. Strong background in Java, Spring Boot, Kafka, and MuleSoft. Owns and supports production services handling 500+ daily flights.",
+
+  "technical_skills": {
+    "programming_languages": ["Java", "Python", "JavaScript"],
+    "frameworks": ["Spring Boot", "MuleSoft"],
+    "tools_and_libraries": ["Kafka", "Git", "GitHub Copilot", "Maven", "Postman", "pandas", "NumPy", "scikit-learn"],
+    "databases": ["DB2", "MongoDB", "PostgreSQL", "Microsoft SQL Server"],
+    "devops_and_infrastructure": ["OpenShift", "Jenkins", "SonarQube", "Docker", "Kubernetes", "GitHub Actions"],
+    "cloud_services": ["AWS Lambda", "AWS EC2", "AWS S3", "AWS Step Functions"]
+  },
+
+  "work_experience": [
+    {
+      "role": "Software Engineer",
+      "company": "Allegiant Air",
+      "company_headquarters": "Las Vegas, NV",
+      "work_type": "Remote — Sandesh works remotely from Minneapolis, MN. He does NOT live in Las Vegas.",
+      "start_date": "June 2023",
+      "end_date": "Present",
+      "is_current_job": true,
+      "responsibilities_and_achievements": [
+        "Led integration of Flight Movement Management services with Navblue operational systems using SOAP APIs, MuleSoft, and AmazonMQ to enable real-time exchange of mission-critical flight data.",
+        "Enhanced passenger flight management systems supporting 500+ daily flights using Java Spring Boot, MuleSoft, Kafka, REST APIs, and MySQL.",
+        "Supported and stabilized production systems across 30+ releases by diagnosing cross-service failures and resolving high-impact incidents in Spring Boot, MuleSoft, and JBoss environments.",
+        "Optimized MuleSoft CloudHub APIs with Kafka integration and Redis caching, improving service throughput by 15%."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "TFE Connect – Student Mentor Engagement Platform",
+      "tech_stack": ["Java", "Spring Boot", "React", "AWS", "Elastic Beanstalk", "VPC"],
+      "description": "Built and deployed a full-stack mentorship platform. Provisioned AWS infrastructure including VPC and deployed backend services via Elastic Beanstalk."
+    },
+    {
+      "name": "IBKR Algorithmic Trading Bot",
+      "tech_stack": ["Python", "IBKR API", "Machine Learning"],
+      "description": "Developed an algorithmic trading bot using IBKR API with SMA and RSI strategies. Implemented backtesting, position sizing, stop-loss logic, and automated trade execution. Integrated ML/AI components including feature engineering, predictive signal modeling, volatility forecasting for dynamic position sizing, and model monitoring."
+    }
+  ],
+
+
+  "nonprofit_involvement": [
+    {
+      "role": "Volunteer Web Developer",
+      "organization": "Trinket for Education (Non-Profit)",
+      "start_date": "January 2022",
+      "end_date": "Present",
+      "responsibilities": [
+        "Led end-to-end technology strategy and development for nonprofit supporting 20–25 underprivileged students in Nepal.",
+        "Built and launched the organization website.",
+        "Strengthened donor acquisition through digital engagement initiatives."
+      ]
+    }
+  ],
+
+  "hobbies_and_interests": [
+    "Plays guitar and listens to rock, hard rock, and blues music.",
+    "Deeply interested in financial markets and algorithmic trading.",
+    "Big football (soccer) fan.",
+    "Loves building side projects — exploring new technologies, experimenting with AI.",
+    "Enjoys mentoring others in their technical careers."
+  ],
+
+  "soft_skills": [
+    "Calm under pressure",
+    "Analytical thinking",
+    "Structured problem solving",
+    "Ownership mindset",
+    "Cross-team collaboration",
+    "Production incident management",
+    "Clear technical communication",
+    "Adaptability",
+    "Continuous learning",
+    "Humble but confident demeanor"
+  ],
+
+  "career_goal": "Become a Software Architect specializing in backend and distributed systems — focused on distributed system design, event-driven architecture, high-availability systems, and cloud-native architectures."
+}

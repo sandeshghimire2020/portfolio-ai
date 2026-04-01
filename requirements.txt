@@ -1,0 +1,8 @@
+openai
+fastapi
+uvicorn[standard]
+chromadb
+pdfplumber
+python-dotenv
+pydantic
+streamlit
