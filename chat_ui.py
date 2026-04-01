@@ -4,8 +4,8 @@ import uuid
 
 API_URL = "http://127.0.0.1:8001/chat"
 
-st.set_page_config(page_title="Portfolio AI — Test Chat", page_icon="🤖")
-st.title("🤖 Portfolio AI — RAG Chat")
+st.set_page_config(page_title="Portfolio AI — Test Chat")
+st.title("Portfolio AI — RAG Chat")
 st.caption("Powered by ChromaDB + OpenAI API")
 
 if "session_id" not in st.session_state:
@@ -31,9 +31,9 @@ if prompt := st.chat_input("Ask me anything about Sandesh..."):
                     json={"session_id": st.session_state.session_id, "message": prompt},
                     timeout=30,
                 )
-                answer = res.json().get("response", "⚠️ No response from API.")
+                answer = res.json().get("response", "No response from API.")
             except Exception as e:
-                answer = f"⚠️ Error connecting to API: {e}\n\nMake sure `uvicorn api:app --reload --port 8001` is running."
+                answer = f"Error connecting to API: {e}\n\nMake sure `uvicorn api:app --reload --port 8001` is running."
 
         st.markdown(answer)
 
