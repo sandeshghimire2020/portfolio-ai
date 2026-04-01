@@ -115,7 +115,6 @@ Example health response:
 - Responses are grounded by retrieval first, then generation.
 
 ## Why I built this
-
 I built this to demonstrate practical backend-focused RAG engineering: resilient ingestion, controlled retrieval, predictable API behavior, and reproducible local workflows.
 
 
