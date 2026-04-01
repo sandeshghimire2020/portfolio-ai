@@ -6,7 +6,7 @@
     "background": "First-generation international student. Strong belief in education accessibility and long-term discipline."
   },
 
-  "professional_summary": "Software Engineer with 3+ years of experience building and supporting distributed, event-driven systems in high-availability aviation environments. Experienced in microservices architecture, SOAP/REST integrations, real-time operational workflows, and production system stabilization. Strong background in Java, Spring Boot, Kafka, and MuleSoft. Owns and supports production services handling 500+ daily flights.",
+  "professional_summary": "Software Engineer with experience in building and supporting distributed, event-driven systems in high-availability aviation environments. Experienced in microservices architecture, SOAP/REST integrations, real-time operational workflows, and production system stabilization. Strong background in Java, Spring Boot, Kafka, and MuleSoft. Owns and supports production services handling 500+ daily flights.",
 
   "technical_skills": {
     "programming_languages": ["Java", "Python", "JavaScript"],
